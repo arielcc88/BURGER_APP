@@ -21,5 +21,8 @@ const burger = {
         orm.updateOne("burgers", col, condition, (result) => {
             cb(result);
         })
-    })
+    }
 }
+
+//exporting model burger
+module.exports = burger;

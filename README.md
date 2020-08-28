@@ -225,10 +225,10 @@ Add a `README.md` to your repository describing the project. Here are some resou
 
 - - -
 
-### Add To Your Portfolio
+### Add Teive an 'A' on any assignment, you must link to it from your portfolio.
+o Your Portfolio
 
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-
+After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To rec
 - - -
 
 ### One More Thing
