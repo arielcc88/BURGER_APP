@@ -1,0 +1,11 @@
+body {
+    /* parallax */
+    background-image: url("../images/burger_backg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app-cont { color:whitesmoke}
+.app-top-heading, .brg-ctner, .form-ctner { padding: 30px }
