@@ -5,23 +5,24 @@ $(document).ready(function(){
     $(".add-form").on("submit", function(event) {
         // Make sure to preventDefault on a submit event.
         event.preventDefault();
-    
-        const queueBurger = {
-          brgname: $("#brg-name").val().trim(),
-          devoured: false
-        };
-    
-        // Send the POST request.
-        $.ajax("/api/burger", {
-          type: "POST",
-          data: queueBurger
-        }).then(
-          function() {
-            console.log("new burger queued");
-            // Reload the page to get the updated list of burgers
-            location.reload();
-          }
-        );
+        if ($("#brg-name").val().trim() !== "") {
+            const queueBurger = {
+                brgname: $("#brg-name").val().trim(),
+                devoured: false
+              };
+          
+              // Send the POST request.
+              $.ajax("/api/burger", {
+                type: "POST",
+                data: queueBurger
+              }).then(
+                function() {
+                  console.log("new burger queued");
+                  // Reload the page to get the updated list of burgers
+                  location.reload();
+                }
+            );
+        }
     });
 
     //updating devour state
